@@ -1,7 +1,7 @@
 plugins {
     kotlin("jvm") version "2.0.20"
     application
-    id("com.github.johnrengelman.shadow") version "8.1.1"
+    id("com.gradleup.shadow") version "9.2.2"
 }
 
 group = "com.automation"
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    // Playwright
+    // Playwright for Java/Kotlin
     implementation("com.microsoft.playwright:playwright:1.49.0")
 
     // Lightweight JSON serialization (Minimal RAM)
